@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: #fff;
-}
+
 #nav-bar{
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 10;
+    width: 100%;
 }
 .navbar-brand img{  /*----logo----*/
     height: 50px;
@@ -28,7 +27,7 @@ body{
  color: #007bff!important;
 }
 .navbar{
-    background: #fff;
+    background: rgb(178, 178, 178);
 }
 .navbar-toggler{
     border: none!important;
@@ -43,9 +42,10 @@ body{
     float: left;
     margin-right: 100px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    width: 200%;
+  
     margin-left: 200px;
     border-radius: 5px 5px 5px 5px;
+    min-width: 35%;
 }
 input[type=text]{
     padding: 7px;
@@ -53,6 +53,7 @@ input[type=text]{
     font-size: 14px;
     float: left;
     opacity: 0.3;
+    min-width: 80%;
 }
 button{
     float: right;
@@ -64,10 +65,16 @@ button{
     padding: 7px;
     border: none;
     font-size: 16px;
+    min-width: 15%;
+
 }
 /*----carousel----*/
 #slider{
     width: 100%;
+}
+.carousel-caption  h5, .carousel-caption p{
+   color: white;
+   font-weight: bold;
 }
 .carousel-item img{
     height: 600px;
