@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{  /*----logo----*/
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.navbar-nav li {   /*-----ul li----*/
+    padding: 0 10px;
+}
+.navbar-nav li a{ /*----ul ll a-----*/
+    margin-top: 10px;
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+ color: #007bff!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.search-form{
+    margin-top: 20px;
+    float: left;
+    margin-right: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 200%;
+    margin-left: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+input[type=text]{
+    padding: 7px;
+    border: none;
+    font-size: 14px;
+    float: left;
+    opacity: 0.3;
+}
+button{
+    float: right;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+}
+/*----carousel----*/
+#slider{
+    width: 100%;
+}
+.carousel-item img{
+    height: 600px;
+}
+/*-----categories-----*/
+#categories{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    background: #f3f0f0;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-4{
+    flex-basis: 25%!important;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    opacity: initial;
+    filter: grayscale(0);
+}
+.col-4 img{
+    width: 100%;
+    height: 150px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+h4{
+    color: #555;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px!important;
+    font-size: 16px!important;
+}
+.col-4:hover{
+    filter: grayscale(1);
+    transform: translateY(-8px);
+}
+/*----service catalog---*/
+#serviceCatalog{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: ##fff;
+}
+.col-3{
+    flex-basis: 25%!important;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    opacity: initial;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.col-3 img{
+    width: 100%;
+    height: 150px;
+}
+.col-3:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.0);
+    transform: translateY(-8px);
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*------footer-----*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 250px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.fa-facebook-official{
+    margin: 5px;
+    color: #fff;
+}
+.fa-twitter-square{
+    margin: 5px;
+    color: #fff; 
+}
+.fa-instagram{
+    margin: 5px;
+    color: #fff;
+}
+.footersm{
+    text-align: center;
+}
+.footer ul{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    top: 5px;
+}
+.footer ul li{
+    margin-bottom: 5px;
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 50;
+}
+.footer ul li a:hover{
+    color: #555;
+}

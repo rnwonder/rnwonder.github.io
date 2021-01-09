@@ -1,0 +1,16 @@
+@import url('./style.css');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Hanalei+Fill&display=swap');
+
+.user-check {
+
+  min-width: 11%;
+  margin: 10px 0 5px 0px;
+  font-family:  cursive;
+  font-size: 14px;
+
+}
+
+.user-check span {
+  font-family: 'Hanalei Fill', cursive;
+}
+
